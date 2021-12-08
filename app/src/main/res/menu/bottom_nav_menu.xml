@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnHomeMenu"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/menu_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnCamaraMenu"
+        android:icon="@drawable/ic_menu_camera"
+        android:orderInCategory="100"
+        android:title="@string/Camara"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnAudioMenu"
+        android:icon="@android:drawable/presence_audio_online"
+        android:orderInCategory="100"
+        android:title="@string/Audio"
+        app:showAsAction="never" />
+</menu>
